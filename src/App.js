@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { LayoutProvider } from "./component/context/LayoutContext";
+import Layout from "./component/layout/Layout";
+import Main from "./component/Main/Main";
+import About from "./component/pages/About/About";
+import Contact from "./component/pages/Contact/Cantact";
+import DataList from "./component/pages/datalist/DataList";
+import newList from "./component/pages/datalist/newsList";
+import Register from "./component/pages/Register/Register";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <BrowserRouter>
+      <LayoutProvider>
+        <Route path='/' render={() =>
+        <Layout>
+          <Switch>
+            <Route path={'/about'} component={About}/>
+            <Route path={'/Register'} component={Register}/>
+            <Route exact path={'/'} component={Main}/>
+            <Route exact path={'/contact'} component={Contact}/>
+            <Route path={'/detail/:id'} component={DataList}/>
+            <Route path={'/detailnew/:id'} component={newList}/>
+          </Switch>
+        </Layout>
+        }/>
+      
+      </LayoutProvider>
+      </BrowserRouter>
     </div>
   );
 }

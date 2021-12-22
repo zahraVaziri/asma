@@ -1,0 +1,13 @@
+
+
+.div-org{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+      box-shadow: 0 0 15px 2px rgb(0 0 0 / 20%);
+}
+.nav-item .nav-link {
+    padding: 1rem  !important;
+}

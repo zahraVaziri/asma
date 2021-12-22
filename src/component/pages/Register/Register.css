@@ -1,0 +1,85 @@
+.div-org-register{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+      box-shadow: 0 0 15px 2px rgb(0 0 0 / 20%);
+}
+.form-group{
+    padding: 10px ;
+}
+.rules{
+    width: 100%;
+    max-height: 240px;
+    overflow-y: scroll;
+    border: 1px solid #ddd;
+    margin-top: 12px;
+    padding: 6px 8px;
+    font-size: .688em;
+}
+
+.success-msg {
+    color: rgb(80, 80, 211);
+    background:rgba(78, 255, 78, 0.74);
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+ label {
+    display: block;
+    font-size: 18px;
+}
+
+ input {
+     display: block;
+     width: 100%;
+    border: 2px solid rgba(82, 82, 126, 0.8);
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+textarea{
+    display: block;
+     width: 100%;
+    border: 2px solid rgba(68, 68, 122, 0.8);
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px; 
+
+}
+
+.input-error {
+    border-color: red;
+  }
+
+  .error {
+    color: red;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+  }
+
+  .disabled-btn {
+    cursor: not-allowed;
+    background: rgba(21, 19, 187, 0.8);
+  }

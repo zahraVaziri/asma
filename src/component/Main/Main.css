@@ -1,0 +1,113 @@
+.bg-main{
+    background: url(https://mppa.ir/wp-content/themes/andishkade-asmae/img/bgp.jpg) repeat;
+}
+.one-div-section{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.one-div-section i{
+    font-size: 18px;
+    margin-left: 5px;
+    color:#035eb1 ;
+}
+.one-div-section h3{
+    font-size: 20px;
+    padding-top: 6px;
+}
+.two-div-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.two-div-section div.col-4{
+    margin: 0 15px;
+   
+}
+.two-div-section div.col-4 .card{
+     box-shadow: 0 0 15px 2px rgb(0 0 0 / 20%);
+     border-radius: 10px;
+}
+.two-div-section div.col-4 .card img{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+
+}
+.two-div-section .card-body h5{
+     display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.two-div-section .card-body p{
+     display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.two-div-section .card-body a{
+    float: left !important;
+}
+.bg-secound{
+    background-color: #f2f3f5;
+}
+.swiper .card{
+    box-shadow: 0 0 15px 2px rgb(0 0 0 / 20%);
+}
+.swiper .card h5{
+     display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.swiper .card p{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.card-end .card{
+    box-shadow: 0 0 15px 2px rgb(0 0 0 / 20%);
+}
+.card-end .card h5{
+    display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.card-end .card p{
+    display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.rounded-start {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-bottom-left-radius: 0!important;
+    border-top-left-radius: 0!important;
+}
+.div-img  {
+    position: relative;
+    padding-top: 100%;
+}
+.div-img img {
+    position: absolute;
+    top: 0;
+}
+
+.div-img-2  {
+    position: relative;
+    padding-top: 100%;
+}
+.div-img-2 img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

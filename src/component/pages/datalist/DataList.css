@@ -1,0 +1,10 @@
+.div-single{
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+.single .card-title{
+    text-align: right;
+}
+.single .card-text{
+    text-align: right;
+}
